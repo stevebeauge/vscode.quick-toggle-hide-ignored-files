@@ -9,3 +9,5 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 out/**
+pnpm-lock.yaml
+images/marketplace-preview.gif

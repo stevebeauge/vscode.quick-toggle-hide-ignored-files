@@ -2,7 +2,7 @@
   "name": "quick-toggle-hide-ignored-files",
   "displayName": "Quick toggle exclude git ignored files",
   "description": "Add a status bar icon and a command to quickly toggle the `exclude git ignored files` option",
-  "version": "0.0.1-preview",
+  "version": "0.0.1",
   "publisher": "SteveBeauge",
   "license": "SEE LICENCE IN LICENSE.md",
   "engines": {
