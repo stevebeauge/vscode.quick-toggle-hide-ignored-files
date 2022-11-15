@@ -1,8 +1,10 @@
 {
   "name": "quick-toggle-hide-ignored-files",
-  "displayName": "Quick toggle hide ignored files",
-  "description": "",
-  "version": "0.0.1",
+  "displayName": "Quick toggle exclude git ignored files",
+  "description": "Add a status bar icon and a command to quickly toggle the `exclude git ignored files` option",
+  "version": "0.0.1-preview",
+  "publisher": "SteveBeauge",
+  "license": "SEE LICENCE IN LICENSE.md",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -11,6 +13,14 @@
   },
   "categories": [
     "Other"
+  ],
+  "icon":"images/icon.png",
+  "preview": true,
+  "keywords": [
+    "git",
+    "explorer",
+    "configuration",
+    "productivity"
   ],
   "activationEvents": [
     "onStartupFinished"
@@ -37,22 +47,22 @@
     "esbuild": "npm run esbuild-base --sourcemap",
     "esbuild-watch": "npm run esbuild-base --sourcemap --watch",
     "test-compile": "tsc -p ./",
-    "clean" : "rimraf out"
+    "clean": "rimraf out"
   },
   "devDependencies": {
     "@types/glob": "^8.0.0",
     "@types/mocha": "^10.0.0",
     "@types/node": "16.x",
     "@types/vscode": "^1.72.0",
-    "@typescript-eslint/eslint-plugin": "^5.38.1",
-    "@typescript-eslint/parser": "^5.38.1",
-    "@vscode/test-electron": "^2.1.5",
-    "esbuild": "^0.15.12",
-    "eslint": "^8.24.0",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "@vscode/test-electron": "^2.2.0",
+    "esbuild": "^0.15.14",
+    "eslint": "^8.27.0",
     "glob": "^8.0.3",
-    "mocha": "^10.0.0",
+    "mocha": "^10.1.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.8.4",
-    "vsce": "^2.13.0"
+    "vsce": "^2.14.0"
   }
 }
